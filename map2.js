@@ -54,7 +54,6 @@ function init() {
 
  const path = d3.geoPath(projection)
 
- const graduateCenterCoords = [{long: -73.984, lat:40.7486}] // long, lat
 
  // create an svg element in our main `d3-container` element
  svg = d3
