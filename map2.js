@@ -22,6 +22,9 @@ let state = {
   screenPosition: null, // will be array of [x,y] once mouse is hovered on something
   mapPosition: null, // will be array of [long, lat] once mouse is hovered on something
 
+  State_Name: null,
+   Proverty_Rate: null,
+
  }
 };
 
@@ -90,6 +93,9 @@ function init() {
     state.hover=  {
       screenPosition: [clientX, clientY], // will be array of [x,y] once mouse is hovered on something
       mapPosition: [long, lat], // will be array of [long, lat] once mouse is hovered on something
+      // State_Name: d.State,
+      // Proverty_Rate: d.PovertyRate,
+      
       visible: true
     }
     draw();
@@ -122,11 +128,13 @@ d3.select("#d3-container") // want to add
 })
 .html(d=> {
   return `
-  <div>This is a sample Tooltip</div>
+  <div></div>
   <div>
   Hovered Location: ${d.mapPosition}
   </div>
-  `
+  <div> State Name: ${d.State_Name}</div>
+  <div> ProvertyRate: ${d3.format(",")(d.ProvertyData)}<div>`
+    
 })
 
 }
