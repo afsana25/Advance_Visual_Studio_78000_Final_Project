@@ -16,14 +16,9 @@ let svg;
 let state = {
  geojson: null,
  ProvertyData: null,
-
- ProvertyData: null,
  hover: {
   screenPosition: null, // will be array of [x,y] once mouse is hovered on something
   mapPosition: null, // will be array of [long, lat] once mouse is hovered on something
-
-  State_Name: null,
-   Proverty_Rate: null,
 
  }
 };
@@ -52,8 +47,13 @@ function init() {
  const projection = d3.geoAlbersUsa()
    .fitSize([width, height], state.geojson)
 
- const colorScale = d3.scaleSequential(d3.interpolateBlues)
-   .domain(d3.extent(state.geojson.features, d=> d.properties.PovertyRate))
+ const colorScale = d3.scaleOrdinal()
+ .domain(["LowerProverty", "MiddleProverty", "HighProverty"])
+ .range(["#2ca02c", "#ff7f0e","#1f77b4"])
+   //.domain(d3.extent(state.geojson.features, d=> d.properties.PovertyRate))
+
+  //  const z = d3.scaleSqrt().domain(d3.extent(state.ProvertyData, d=>d.PerCapita))
+  //  .range([0.01, 40])
 
  const path = d3.geoPath(projection)
 
@@ -71,33 +71,44 @@ function init() {
    .join("path")
    .attr("stroke", "black")
    .attr("fill", d => {
-     return colorScale(d.properties.PovertyRate)
-   })
-   .attr("d", path) 
-  //  .attr("transform", d=>{
-  //   console.log(d)
-  //   const point = projection([d.longitude, d.latitude])
-  //   return `translate(${point[0]}, ${point[1]})`
-  // } )
-  
+     return colorScale(d.properties.Criteria)
+   })  
+
+  .style("stroke"," lightgrey" ).style("stroke-width","1px")
+   .attr("d", path)
+
+
+
+
+//   .attr("transform", d=>{
+//    console.log(d)
+//     const point = projection([d.longitude, d.latitude])
+//    return `translate(${point[0]}, ${point[1]})`
+//  } )
   // )
 
   states
-  .on("mousemove", event => {
+  .on("mousemove", function(event, d) {
     // 1. get mouse x/y position
     const {clientX, clientY} = event
 
     // 2. invert the projection to go from x/y => lat/long
     // ref: https://github.com/d3/d3-geo#projection_invert
     const [long, lat] = projection.invert([clientX, clientY])
+
+    console.log('d', d)
     state.hover=  {
-      screenPosition: [clientX, clientY], // will be array of [x,y] once mouse is hovered on something
-      mapPosition: [long, lat], // will be array of [long, lat] once mouse is hovered on something
-      // State_Name: d.State,
-      // Proverty_Rate: d.PovertyRate,
+      screenPosition: [event.x, event.y], // will be array of [x,y] once mouse is hovered on something
+    //  mapPosition: [long, lat], // will be array of [long, lat] once mouse is hovered on something
+    State_Name: d.properties.NAME,
+ProvertyRate: d.properties.PovertyRate,
+PerCapita : d.properties.PerCapita,
+educationScore: d.properties.educationScore,
+
+    //   // Proverty_Rate: d.PovertyRate,
       
-      visible: true
-    }
+     visible: true
+   }
     draw();
   }).on("mouseout", event=>{
     // hide tooltip when not moused over a state
@@ -134,12 +145,10 @@ d3.select("#d3-container") // want to add
 })
 .html(d=> {
   return `
-  <div></div>
-  <div>
-  Hovered Location: ${d.mapPosition}
-  </div>
   <div> State Name: ${d.State_Name}</div>
-  <div> ProvertyRate: ${d3.format(",")(d.ProvertyData)}<div>`
+  <div> Education Score: ${d3.format(".0%")((d.educationScore/100))}<div>
+  <div> ProvertyRate: ${d3.format(".0%")((d.ProvertyRate))}<div>
+  <div> Per Capita Income: $${d3.format(",")((d.PerCapita))}<div>`
     
 })
 
