@@ -2473,8 +2473,10 @@
         "STUSPS": "AK",
         "NAME": "Alaska",
         "LSAD": "00",
-        "PerCapita": 1478588231566,
-        "PovertyRate": 0.106700003
+        "PerCapita": 63502,
+        "PovertyRate": 0.106700003,
+        "educationScore":49.18999863,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -2983,8 +2985,10 @@
         "STUSPS": "CA",
         "NAME": "California",
         "LSAD": "00",
-        "PerCapita": 403483182192,
-        "PovertyRate": 0.129800007
+        "PerCapita": 70192,
+        "PovertyRate": 0.129800007,
+        "educationScore": 50.02999878,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -3103,8 +3107,10 @@
         "STUSPS": "CO",
         "NAME": "Colorado",
         "LSAD": "00",
-        "PerCapita": 268425964573,
-        "PovertyRate": 0.094899997
+        "PerCapita": 63776,
+        "PovertyRate": 0.094899997, 
+        "educationScore": 67.97000122,
+        "Criteria": "LowerProverty"
       }
     },
     {
@@ -3134,8 +3140,10 @@
         "STUSPS": "DC",
         "NAME": "District of Columbia",
         "LSAD": "00",
-        "PerCapita": 158351639,
-        "PovertyRate": 0
+        "PerCapita": 86567,
+        "PovertyRate": "No info Found",
+        "educationScore": "No info Found",
+        "Criteria": "LowerProverty"
       }
     },
     {
@@ -3422,8 +3430,10 @@
         "STUSPS": "ID",
         "NAME": "Idaho",
         "LSAD": "00",
-        "PerCapita": 214048160737,
-        "PovertyRate": 0.116700001
+        "PerCapita": 48759,
+        "PovertyRate": 0.116700001,
+        "educationScore": 41.65999985,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -3765,8 +3775,10 @@
         "STUSPS": "IL",
         "NAME": "Illinois",
         "LSAD": "00",
-        "PerCapita": 143784114293,
-        "PovertyRate": 0.124399997
+        "PerCapita": 62930,
+        "PovertyRate": 0.124399997,
+        "educationScore":55.61999893,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -4040,8 +4052,10 @@
         "STUSPS": "IA",
         "NAME": "Iowa",
         "LSAD": "00",
-        "PerCapita": 144664158135,
-        "PovertyRate": 0.109700002
+        "PerCapita": 53478,
+        "PovertyRate": 0.109700002,
+        "educationScore":49.68999863,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -4395,8 +4409,10 @@
         "STUSPS": "KY",
         "NAME": "Kentucky",
         "LSAD": "00",
-        "PerCapita": 102266092821,
-        "PovertyRate": 0.166500002
+        "PerCapita": 47339,
+        "PovertyRate": 0.166500002,
+        "educationScore":32.15000153,
+        "Criteria":"HighProverty"
       }
     },
     {
@@ -4717,8 +4733,10 @@
         "STUSPS": "LA",
         "NAME": "Louisiana",
         "LSAD": "00",
-        "PerCapita": 111904803121,
-        "PovertyRate": 0.188800007
+        "PerCapita": 50874,
+        "PovertyRate": 0.188800007,
+        "educationScore": 22.56999969, 
+        "Criteria": "HighProverty"
       }
     },
     {
@@ -5011,8 +5029,10 @@
         "STUSPS": "MD",
         "NAME": "Maryland",
         "LSAD": "00",
-        "PerCapita": 25150696145,
-        "PovertyRate": 0.0889
+        "PerCapita": 66799,
+        "PovertyRate": 0.0889,
+        "educationScore": 73.20999908,
+        "Criteria": "LowerProverty"
       }
     },
     {
@@ -5344,8 +5364,10 @@
         "STUSPS": "MN",
         "NAME": "Minnesota",
         "LSAD": "00",
-        "PerCapita": 206229176104,
-        "PovertyRate": 0.091700003
+        "PerCapita": 62005,
+        "PovertyRate": 0.091700003,
+        "educationScore":65.56999969,
+        "Criteria": "LowerProverty" 
       }
     },
     {
@@ -5682,8 +5704,10 @@
         "STUSPS": "MO",
         "NAME": "Missouri",
         "LSAD": "00",
-        "PerCapita": 178052037005,
-        "PovertyRate": 0.130999997
+        "PerCapita": 51697,
+        "PovertyRate": 0.130999997,
+        "educationScore":44.5,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -6045,8 +6069,10 @@
         "STUSPS": "NY",
         "NAME": "New York",
         "LSAD": "00",
-        "PerCapita": 122048992746,
-        "PovertyRate": 0.139500007
+        "PerCapita": 74472,
+        "PovertyRate": 0.139500007,
+        "educationScore":56.72999954,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -6320,8 +6346,10 @@
         "STUSPS": "OR",
         "NAME": "Oregon",
         "LSAD": "00",
-        "PerCapita": 248604328809,
-        "PovertyRate": 0.123400003
+        "PerCapita": 56312,
+        "PovertyRate": 0.123400003,
+        "educationScore": 55.70999908,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -6591,8 +6619,10 @@
         "STUSPS": "TN",
         "NAME": "Tennessee",
         "LSAD": "00",
-        "PerCapita": 106798015774,
-        "PovertyRate": 0.142399997
+        "PerCapita": 51046,
+        "PovertyRate": 0.142399997,
+        "educationScore": 35.84999847,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -7167,8 +7197,10 @@
         "STUSPS": "TX",
         "NAME": "Texas",
         "LSAD": "00",
-        "PerCapita": 676641930188,
-        "PovertyRate": 0.135299996
+        "PerCapita": 55129,
+        "PovertyRate": 0.135299996,
+        "educationScore":37.11999893,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -7520,8 +7552,10 @@
         "STUSPS": "VA",
         "NAME": "Virginia",
         "LSAD": "00",
-        "PerCapita": 102254240128,
-        "PovertyRate": 0.100199997
+        "PerCapita": 61958,
+        "PovertyRate": 0.100199997,
+        "educationScore": 66.98000336,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -7883,8 +7917,10 @@
         "STUSPS": "WI",
         "NAME": "Wisconsin",
         "LSAD": "00",
-        "PerCapita": 140275464079,
-        "PovertyRate": 0.108900003
+        "PerCapita": 55593,
+        "PovertyRate": 0.108900003,
+        "educationScore":53.22999954,
+        "Criteria": "MiddleProverty"
       }
     },
     {
@@ -8086,8 +8122,10 @@
         "STUSPS": "AL",
         "NAME": "Alabama",
         "LSAD": "00",
-        "PerCapita": 131174431216,
-        "PovertyRate": 0.160799995
+        "PerCapita": 46479,
+        "PovertyRate": 0.160799995,
+        "educationScore": 30.22999954,
+        "Criteria":"HighProverty"
       }
     },
     {
@@ -8265,8 +8303,10 @@
         "STUSPS": "AZ",
         "NAME": "Arizona",
         "LSAD": "00",
-        "PerCapita": 294198661567,
-        "PovertyRate": 0.136600003
+        "PerCapita": 49648,
+        "PovertyRate": 0.136600003,
+        "educationScore": 42.61000061,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -8505,8 +8545,10 @@
         "STUSPS": "AR",
         "NAME": "Arkansas",
         "LSAD": "00",
-        "PerCapita": 134768100673,
-        "PovertyRate": 0.163100004
+        "PerCapita": 47235,
+        "PovertyRate": 0.163100004,
+        "educationScore": 27.89999962,
+        "Criteria":"HighProverty"
       }
     },
     {
@@ -8745,8 +8787,11 @@
         "STUSPS": "IN",
         "NAME": "Indiana",
         "LSAD": "00",
-        "PerCapita": 92787765193,
-        "PovertyRate": 0.126900002
+        "PerCapita": 51926,
+        "PovertyRate": 0.126900002,
+        "educationScore": 41.81999969,
+        "Criteria":"MiddleProverty"
+      
       }
     },
     {
@@ -8937,8 +8982,10 @@
         "STUSPS": "KS",
         "NAME": "Kansas",
         "LSAD": "00",
-        "PerCapita": 211753159949,
-        "PovertyRate": 0.115699999
+        "PerCapita": 56099,
+        "PovertyRate": 0.115699999,
+        "educationScore": 53.31000137,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -9223,8 +9270,10 @@
         "STUSPS": "ME",
         "NAME": "Maine",
         "LSAD": "00",
-        "PerCapita": 79885808421,
-        "PovertyRate": 0.112599999
+        "PerCapita": 54211,
+        "PovertyRate": 0.112599999,
+        "educationScore": 54.90999985,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -9342,8 +9391,10 @@
         "STUSPS": "CT",
         "NAME": "Connecticut",
         "LSAD": "00",
-        "PerCapita": 12542619303,
-        "PovertyRate": 0.097000003
+        "PerCapita": 78609,
+        "PovertyRate": 0.097000003,
+        "educationScore": 68.22000122,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -9416,8 +9467,10 @@
         "STUSPS": "DE",
         "NAME": "Delaware",
         "LSAD": "00",
-        "PerCapita": 5047241079,
-        "PovertyRate": 0.1096
+        "PerCapita": 56097,
+        "PovertyRate": 0.1096,
+        "educationScore": 55.40000153,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -9706,8 +9759,10 @@
         "STUSPS": "GA",
         "NAME": "Georgia",
         "LSAD": "00",
-        "PerCapita": 149177524294,
-        "PovertyRate": 0.139799997
+        "PerCapita": 51780,
+        "PovertyRate": 0.139799997,
+        "educationScore": 44.95999908,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -9992,8 +10047,10 @@
         "STUSPS": "HI",
         "NAME": "Hawaii",
         "LSAD": "00",
-        "PerCapita": 16634117742,
-        "PovertyRate": 0.093199998
+        "PerCapita": 58655,
+        "PovertyRate": 0.093199998,
+        "educationScore": 55.65000153,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -10206,8 +10263,10 @@
         "STUSPS": "SC",
         "NAME": "South Carolina",
         "LSAD": "00",
-        "PerCapita": 77862731483,
-        "PovertyRate": 0.138799995
+        "PerCapita": 48021,
+        "PovertyRate": 0.138799995,
+        "educationScore": 34.77000046,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -10415,8 +10474,10 @@
         "STUSPS": "SD",
         "NAME": "South Dakota",
         "LSAD": "00",
-        "PerCapita": 196345228871,
-        "PovertyRate": 0.122500002
+        "PerCapita": 59281,
+        "PovertyRate": 0.122500002,
+        "educationScore": 44.11999893,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -10664,8 +10725,10 @@
         "STUSPS": "MA",
         "NAME": "Massachusetts",
         "LSAD": "00",
-        "PerCapita": 20204287539,
-        "PovertyRate": 0.098399997
+        "PerCapita": 78458,
+        "PovertyRate": 0.098399997,
+        "educationScore": 80.05999756,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -11184,8 +11247,10 @@
         "STUSPS": "MI",
         "NAME": "Michigan",
         "LSAD": "00",
-        "PerCapita": 146488062160,
-        "PovertyRate": 0.139899999
+        "PerCapita": 53259,
+        "PovertyRate": 0.139899999,
+        "educationScore": 48.65999985,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -11432,8 +11497,10 @@
         "STUSPS": "MS",
         "NAME": "Mississippi",
         "LSAD": "00",
-        "PerCapita": 121530256608,
-        "PovertyRate": 0.197799996
+        "PerCapita": 42129,
+        "PovertyRate": 0.197799996,
+        "educationScore": 19.31999969,
+        "Criteria":"HighProverty"
       }
     },
     {
@@ -11660,8 +11727,10 @@
         "STUSPS": "NE",
         "NAME": "Nebraska",
         "LSAD": "00",
-        "PerCapita": 198957965731,
-        "PovertyRate": 0.105400003
+        "PerCapita": 57570,
+        "PovertyRate": 0.105400003,
+        "educationScore": 52.08000183,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -11824,8 +11893,10 @@
         "STUSPS": "NV",
         "NAME": "Nevada",
         "LSAD": "00",
-        "PerCapita": 284329327067,
-        "PovertyRate": 0.118799999
+        "PerCapita": 53720,
+        "PovertyRate": 0.118799999,
+        "educationScore": 33.31000137,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -11977,8 +12048,10 @@
         "STUSPS": "NH",
         "NAME": "New Hampshire",
         "LSAD": "00",
-        "PerCapita": 23187445452,
-        "PovertyRate": 0.071599998
+        "PerCapita": 67097,
+        "PovertyRate": 0.071599998,
+        "educationScore": 66.31999969,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -12164,8 +12237,10 @@
         "STUSPS": "NJ",
         "NAME": "New Jersey",
         "LSAD": "00",
-        "PerCapita": 19049723313,
-        "PovertyRate": 0.097999997
+        "PerCapita": 73460,
+        "PovertyRate": 0.097999997,
+        "educationScore": 62.93000031,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -12295,8 +12370,10 @@
         "STUSPS": "NM",
         "NAME": "New Mexico",
         "LSAD": "00",
-        "PerCapita": 314191415563,
-        "PovertyRate": 0.185900003
+        "PerCapita": 46338,
+        "PovertyRate": 0.185900003,
+        "educationScore": 36.31999969,
+        "Criteria":"HighProverty"
       }
     },
     {
@@ -12544,8 +12621,10 @@
         "STUSPS": "NC",
         "NAME": "North Carolina",
         "LSAD": "00",
-        "PerCapita": 125919712692,
-        "PovertyRate": 0.135800004
+        "PerCapita": 50305,
+        "PovertyRate": 0.135800004,
+        "educationScore": 46.02999878,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -12694,8 +12773,10 @@
         "STUSPS": "ND",
         "NAME": "North Dakota",
         "LSAD": "00",
-        "PerCapita": 178710423375,
-        "PovertyRate": 0.101000004
+        "PerCapita": 61530,
+        "PovertyRate": 0.101000004, 
+        "educationScore": 52.02000046,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -12780,8 +12861,10 @@
         "STUSPS": "RI",
         "NAME": "Rhode Island",
         "LSAD": "00",
-        "PerCapita": 2677997539,
-        "PovertyRate": 0.1184
+        "PerCapita": 60825,
+        "PovertyRate": 0.1184,
+        "educationScore": 52.95000076,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -13043,8 +13126,10 @@
         "STUSPS": "OH",
         "NAME": "Ohio",
         "LSAD": "00",
-        "PerCapita": 105833282399,
-        "PovertyRate": 0.135399997
+        "PerCapita": 53641,
+        "PovertyRate": 0.135399997,
+        "educationScore": 45.08000183,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -13300,8 +13385,10 @@
         "STUSPS": "OK",
         "NAME": "Oklahoma",
         "LSAD": "00",
-        "PerCapita": 177664450004,
-        "PovertyRate": 0.149299994
+        "PerCapita": 49878,
+        "PovertyRate": 0.149299994,
+        "educationScore": 34.43000031,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -13501,8 +13588,10 @@
         "STUSPS": "PA",
         "NAME": "Pennsylvania",
         "LSAD": "00",
-        "PerCapita": 115881477379,
-        "PovertyRate": 0.120200001
+        "PerCapita": 61700,
+        "PovertyRate": 0.120200001,
+        "educationScore": 48.74000168,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -13921,8 +14010,10 @@
         "STUSPS": "FL",
         "NAME": "Florida",
         "LSAD": "00",
-        "PerCapita": 138911437206,
-        "PovertyRate": 0.1294
+        "PerCapita": 55675,
+        "PovertyRate": 0.1294,
+        "educationScore": 48.86000061,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -14187,8 +14278,10 @@
         "STUSPS": "MT",
         "NAME": "Montana",
         "LSAD": "00",
-        "PerCapita": 376960880222,
-        "PovertyRate": 0.123099998
+        "PerCapita": 53361,
+        "PovertyRate": 0.123099998,
+        "educationScore": 53.36999893,
+        "Criteria":"MiddleProverty"
 
       }
     },
@@ -14305,8 +14398,10 @@
         "STUSPS": "UT",
         "NAME": "Utah",
         "LSAD": "00",
-        "PerCapita": 212884846341,
-        "PovertyRate": 0.088799998
+        "PerCapita": 52204,
+        "PovertyRate": 0.088799998,
+        "educationScore": 64.52999878,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -14456,8 +14551,10 @@
         "STUSPS": "VT",
         "NAME": "Vermont",
         "LSAD": "00",
-        "PerCapita": 23873457570,
-        "PovertyRate": 0.105400003
+        "PerCapita": 59187,
+        "PovertyRate": 0.105400003,
+        "educationScore": 70.06999969,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -14720,8 +14817,10 @@
         "STUSPS": "WA",
         "NAME": "Washington",
         "LSAD": "00",
-        "PerCapita": 172111800165,
-        "PovertyRate": 0.0995
+        "PerCapita": 67126,
+        "PovertyRate": 0.0995,
+        "educationScore": 63.77000046,
+        "Criteria":"LowerProverty"
       }
     },
     {
@@ -14983,8 +15082,10 @@
         "STUSPS": "WV",
         "NAME": "West Virginia",
         "LSAD": "00",
-        "PerCapita": 62265662566,
-        "PovertyRate": 0.176599994
+        "PerCapita": 44994,
+        "PovertyRate": 0.176599994,
+        "educationScore": 21.02000046,
+        "Criteria":"HighProverty"
       }
     },
     {
@@ -15101,8 +15202,10 @@
         "STUSPS": "WY",
         "NAME": "Wyoming",
         "LSAD": "00",
-        "PerCapita": 251465641446,
-        "PovertyRate": 0.106899999
+        "PerCapita": 61855,
+        "PovertyRate": 0.106899999,
+        "educationScore": 51.25,
+        "Criteria":"MiddleProverty"
       }
     },
     {
@@ -15273,7 +15376,9 @@
         "NAME": "Puerto Rico",
         "LSAD": "00",
         "PerCapita": 8868734851,
-        "PovertyRate": 0
+        "PovertyRate": 0,
+        "educationScore": "No info Found",
+        "Criteria":"LowerProverty"
       }
     }
   ]
