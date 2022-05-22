@@ -35,7 +35,7 @@ result=data;
   data.forEach(function(d) {
     d.educationScore = +d.educationScore;
     d.PerCapita = +d.PerCapita;
-    d.PerCapita=+d.PerCapita;
+    d.PerCapita=+d.PovertyRate;
   });
 
   //for tool tip 
@@ -100,7 +100,7 @@ var line = d3.svg.line()
     .enter().append("circle")
       .attr("class", "dot")
       // .attr("opacity",0.5)
-      .attr("r", function(d){return Math.sqrt((d.PerCapita)*0.001)})
+      .attr("r", function(d){return Math.sqrt((d.PovertyRate)*1000)})
       .attr("cx", function(d) { return x(d.PerCapita); })
       .attr("cy", function(d) { return y(d.educationScore); })
       .style("fill", function(d) { return color(d.Criteria)}).
@@ -149,7 +149,7 @@ var line = d3.svg.line()
 function leastSquaresequation(x_Point, y_Point) {
     var ComputedReducedAddition = function(prev, cur) { return prev + cur; };
     
-       // Computed the mean of Xaxis and Yaxis data
+    
     var x_Coefficient = x_Point.reduce(ComputedReducedAddition) * 1.0 / x_Point.length;
     var y_Coefficient = y_Point.reduce(ComputedReducedAddition) * 1.0 / y_Point.length;
 
@@ -165,7 +165,7 @@ function leastSquaresequation(x_Point, y_Point) {
     var slope = MeanDiffXY / Squared_XXValue;
     var intercept = y_Coefficient - (x_Coefficient * slope);
     
-// regression function
+// returning regression function
     return function(x){
       return x*slope+intercept
     }
