@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>How Education Shapes the Income and Proverty Rate of USA?</title>
+<title>How Education Shapes the Income and Poverty Rate of USA?</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./final_style.css">
@@ -23,15 +23,13 @@ h1, h2, h3, h4, h5, h6 {
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="viz-right viz-hide-small">
       <!-- <a href="#Afsana_Mimi" class="viz-bar-item viz-button"></a> -->
-      <a href="#Intoduction" class="viz-bar-item viz-button">Intoduction</a>
+      <a href="#Introduction" class="viz-bar-item viz-button">Introduction</a>
       <a href="#Methodology" class="viz-bar-item viz-button">Methodology</a>
-      <!-- <a href="#Mapvisulaization1" class="viz-bar-item viz-button">US Proverty Choropleth Map </a> -->
-      <a href="#Linear Rigression" class="viz-bar-item viz-button">Linear Rigression</a>
-
-
+      <!-- <a href="#Mapvisulaization1" class="viz-bar-item viz-button">US Poverty Choropleth Map </a> -->
+      <a href="#Linear Rigressions" class="viz-bar-item viz-button">Linear Rigressions</a>
       <!-- <a href="#Bar Chart" class="viz-bar-item viz-button">Bar Chart</a> -->
-      <a href="#Result" class="viz-bar-item viz-button">Correlation and Result</a>
-      <a href="#Conclusion" class="viz-bar-item viz-button">Conclusion</a>
+      <a href="#Correlation" class="viz-bar-item viz-button">Correlation</a>
+      <a href="#Conclusion" class="viz-bar-item viz-button"> Conclusion</a>
       <a href="#DataSource" class="viz-bar-item viz-button">Data Sources</a>
       
     </div>
@@ -46,70 +44,29 @@ h1, h2, h3, h4, h5, h6 {
 <!-- Page content -->
 <div class="viz-content" style="max-width:1100px">
 
-  <!-- Intoduction Section -->
+  <!-- Introduction Section -->
   <div class="viz-row viz-padding-64">
     <div class=" viz-padding-large">
 
       <div>
-        <blockquote><blockquote><blockquote> <h2>The US Chorpleth Map Based on Proverty Rate</h2> </blockquote></blockquote><blockquote></blockquote></blockquote>
+        <blockquote><blockquote><blockquote> <h2>The US Choropleth Map Based on Poverty Rate</h2> </blockquote></blockquote><blockquote></blockquote></blockquote>
       </div>
        
      <style>.embed-container {position: relative; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 20; left: 0; width: 200%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="NYC" src="index4.html"></iframe></div>
     
     </div>
 
-    <div class="viz-row m6 viz-padding-large" id="Intoduction">
-      <h2 class="viz-center"> How Education Shapes the Income and Proverty Rate of USA?</h2>
+    <div class="viz-row m6 viz-padding-large" id="Introduction">
+      <h2 class="viz-center"> How Education Shapes the Income and Poverty Rate of USA?</h2>
 
       <h3 class="viz-center"> Afsana Mimi</h3>
-      <h5 class="viz-center">Intoduction</h5>
+      <h5 class="viz-center">Introduction</h5>
       <p class="viz-large">
-        United States is one of the richest country in the world, but it stills has a provrty prevails among its states. The project's motivation is to find 
-        the relationship between the proverty rate to per capita income, and education score for the states. The visualization involves the us choropleth map visualizations, and the Linear Rigression of Provety Vs Education Score.
-         The choropleth map in d3 format showing the proverty rate the highest to lowest with color coded light blue to dark blue.
-          The Rigression shows how fit the Education score and per capita income has inverse infect on the proverty rate .</p>
-    </div>
+        The United States is one of the wealthiest countries globally, but it still has poverty prevails in its states. The project's motivation is to find the relationship between the states' poverty rate, per capita income, and education scores via linear Regression and Correlation. The visualization involves choropleth map visualizations, a series of the Linear Regression includes Education Score Vs. Per Capita Income, Per Capita Vs. Poverty Rate and Education Score Vs. Per Capita. The choropleth map of the US states shows the highest to lowest poverty rate with color-coded light with blue, orange, and green based on poverty criteria(High, Middle, Low). The Regression shows how to fit the Education score, Poverty rate, and per capita income to their perspective regression line. A table chart shows the correlations between the indicators, Poverty rate, Education Score, and Per Capita Income in the HTML table, with red as the inverse relationship and green as the positive relationship. 
+    </p>
+      
+      </div>
   </div>
-</div>
-  
-  <hr>
-  <!-- Linear Rigression of Provety Vs Education Score Section -->
-  <!-- Page content -->
-<div class="viz-content" style="max-width:1100px">
-
-  <!-- Intoduction Section -->
-  <div class="viz-row" id="Linear Rigression">
-    <h5 class="viz-center"> Linear Rigression of Provety Vs Education Score</h5><br>
-    <div>
-      <style>.embed-container {position: absolute; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 50; left: 0; width: 100%; height: 100%;} 
-      small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style>
-      <div class="embed-container"><iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Regression" src="index.html">
-      </iframe>
-    
-    
-    </div>
-
-
-    <h5 class="viz-center"> Linear Rigression of Provety Vs Per Capita</h5><br>
-    <div>
-      <!-- <style>.embed-container {position: absolute; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 50; left: 0; width: 100%; height: 100%;} 
-      small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style> -->
-      <div class="embed-container"><iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Regression" src="index9.html">
-      </iframe>
-    </div>
-
-    <p>Linear</p>
-    <h5 class="viz-center"> Linear Rigression of EducationScore Vs Per Capita</h5><br>
-    <div>
-      <!-- <style>.embed-container {position: absolute; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 50; left: 0; width: 100%; height: 100%;} 
-      small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style> -->
-      <div class="embed-container"><iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Regression" src="index2.html">
-      </iframe>
-    
-    
-    </div>
-</div>
-</div>
 </div>
 
 <hr>
@@ -118,37 +75,90 @@ h1, h2, h3, h4, h5, h6 {
   <!-- Page content -->
   <div class="viz-content" style="max-width:1100px">
 
-    <!-- Intoduction Section -->
+    <!-- Introduction Section -->
     <div class="viz-row" id="Methodology">
       <h5 class="viz-center"> Methodology</h5><br>
       <div>
        
         <h6> Data Collection and Manipulation:</h6>
-        <p class="viz-large"> All spreadsheets data have been collected from several sources such as Us census and worldpopulationreview.com . From worldpopulationreview.com, the proverty rate, and education score 
-          Has collected, and US census the percapita income has collected in excel format. Most of the data combined and cleaned(null values or drop column) 
-          in SQL. Some works also have been completed in excel. The US state data has collected in  GEO-JSON format.Other works has completed in VSCode </p><br>
+        <p class="viz-large"> All spreadsheet data have been collected from the US Census and worldpopulationreview.com. The Poverty rate and education score have been collected From worldpopulationreview.com. The per capita income has been collected from the US census in excel format. Most of the data is combined and cleaned(null values or drop columns) in SQL and also completed in excel. The US state geographic data has been collected in  GEO-JSON format and manually added the indicators such as per capita income, education score, and poverty rate. </p><br>
   <div>
   
    
       <div>
-        <h5> Map Visulizations:</h5>
+        <h5> Map Visulization:</h5>
   
-        <p class="viz-large"> All the choropleth map has completed in javaCript using the d3. In the first choropleth map, the colorful areas represent each State of the USA, 
-          and the hover of the map shows all the information, proverty rate, per capita income, and education score. The more darker the  blue color the increase the proverty rate.
-        Regression has also completed in the D3(3.17). In the visualization, </p><br>
+        <p class="viz-large"> The choropleth map has been completed in javascript using the d3 with version 6. Based on the criteria of the poverty group, color has been applied to the choropleth map. The blue color represents high poverty, the orange color represents middle poverty, and the green color represents Lower poverty rates within the states. The hover of the map shows information about the poverty rate, per capita income, and education score. The geo JSON data file has used to complete the map. </p><br>
        
       </div>
   
+      <div>
+        <h5> Linear Rigressions:</h5>
+  
+        <p class="viz-large">  
+          All the Regression between indicators has been completed via the D3(3.17) javascript. The straight line shows the regression line between the indicators and hovers over the line presenting the computed value for the predicted model( Y-axis or Y as the predicted indicator, and x-axis or X as the input value). According to the choropleth map, the legend is also set up as blue for high poverty, orange for middle poverty, and green for lower poverty. All the regression visuals show the equation( y = ax+ b, a is the coefficient for x value, and b is the intercept) and R^2 value(Co-efficient determination, A Fitted value to predict the model). The first two regression lines show the indicator's inverse relationship with the inverse regression line(upward left, a person's front screen view). The last one shows the positive relationship with an increased line to the upward right(a person's front screen view). 
+</p>
+        </div>
   <div>
         <h5>Correlation:</h5>
-        <p class="viz-large"> R software has used to complete the correlation. The negative value mean they do have inverse relationship, and positive value means
-  
-          they do have positive relationship. The value, 0.60 or more means they have strong relationship.
+        <p class="viz-large"> R software has used to complete the correlation. The negative value means they have an inverse relationship, and the positive value means they have a positive relationship. The value, 0.60 or more points, they have a strong relationship. The red color represents a negative relationship in this table, and the green color represents a positive relationship between the variables.
+      </p>
       
-      </div>
+        </div>
   </div>
   </div>
   </div>
+
+  
+  <hr>
+  <!-- Linear Rigression of Provety Vs Education Score Section -->
+  <!-- Page content -->
+<div class="viz-content" style="max-width:1100px">
+
+  <!-- Introduction Section -->
+  <div class="viz-row" id="Linear Rigressions">
+    <h5 class="viz-center"> Linear Rigression of Education Score VS Poverty Rate</h5><br>
+    <div>
+
+      <!-- <style>.embed-container {position: absolute; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 50; left: 0; width: 100%; height: 100%;} 
+      small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style> -->
+      <div class="embed-container"><iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Regression" src="index.html">
+      </iframe>
+
+    </div>
+    
+    <p>The above regression chart shows a negative relationship between the education score and the poverty rate. The negative value before x coefficients also implies the relationship. The R2 = 0.746 tells that almost 75% of the points fit to the regression line and that it is an excellent model to predict the education score based on the poverty rate.
+    </p>
+
+    <blockquote> <blockquote> <blockquote></blockquote> </blockquote> </blockquote>
+
+    <h5 class="viz-center"> Linear Rigression of Per Capita VS Poverty Rate</h5><br>
+    <div>
+      <!-- <style>.embed-container {position: absolute; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 50; left: 0; width: 100%; height: 100%;} 
+      small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style> -->
+      <div class="embed-container"><iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Regression" src="index9.html">
+      </iframe>
+    </div>
+    </div>
+
+    <p>The second regression shows a negative relationship between the per capita income and the poverty rate as the negative value before x coefficients. The R2 = 0.4413 states that almost 44% of the data fit the regression line, which is a moderately good model for predicting per capita income based on the poverty rate.</p>
+<blockquote> <blockquote> <blockquote></blockquote> </blockquote> </blockquote>
+
+    <h5 class="viz-center"> Linear Rigression of Education Score Vs Per Capita</h5><br>
+    <div>
+      <!-- <style>.embed-container {position: absolute; padding-bottom: 100%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 50; left: 0; width: 100%; height: 100%;} 
+      small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style> -->
+      <div class="embed-container"><iframe width="1000" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Regression" src="index2.html">
+      </iframe>
+    
+    
+    </div>
+
+    <p>The last regression chart shows a positive relationship between the education score and the per capita income as the positive value before x coefficients implies the same thing as well. The R2 = 0.6167 states that almost 62% of the data fit the regression line, which is a good model for predicting the education score based on the per capita income.</p>
+</div>
+</div>
+</div>
+
 
       <hr>
     <div class="viz-col l6 viz-padding-large">
@@ -161,16 +171,16 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 </div>
 
-      <!-- Result Section -->
+      <!-- Correlation Section -->
 
 
 
   <!-- Methodology Section -->
 
   <div class="viz-content" style="max-width:1100px">
-  <div class="viz-row viz-padding-64" id="Result">
+  <div class="viz-row viz-padding-64" id="Correlation">
     <div class="viz-padding-large">
-      <h5 class="viz-center">Correlation and Result</h5>
+      <h5 class="viz-center">Correlation</h5>
     <div>
       <br>
 
@@ -208,23 +218,26 @@ h1, h2, h3, h4, h5, h6 {
               </tr>
               <tr>
               <td>Poverty Rate(State)</td>
-              <td>1</td>
-              <td>-0.863966</td>
-              <td>-0.6643215</td>
+              <td  style="color: rgb(57, 196, 57)">1</td>
+              
+              <td style="color:red">-0.863966</td>
+              <td style="color:red">-0.6643215</td>
 
 
               </tr>
               <tr>
               <td>Education Score(State)</td>
-              <td>-0.863966</td>
-              <td>1</td>
-              <td>0.7853246</td>
+
+            <td style="color:red">-0.863966</td>
+    
+              <td  style="color: rgb(57, 196, 57)">1</td>
+              <td  style="color: rgb(57, 196, 57)">0.7853246</td>
               </tr>
               <tr>
               <td>Per Capita(State)</td>
-              <td>-0.6643215</td>
-              <td>0.7853246</td>
-              <td>1</td>
+              <td style="color:red">-0.6643215</td>
+              <td style= "color:rgb(57, 196, 57)">0.7853246</td>
+              <td style= "color:rgb(57, 196, 57)">1</td>
               </tr>
           
             </table>
@@ -235,9 +248,8 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 </div>
 
-<p class="viz-large"> The above correlation is easily showing the Proverty rate is negatively correlated to educationscore and per capita income,
-  and they are strongly correlated. It means that if one is increasing other one is decrease. We are also seeing that education
-   score and per capita income is positively correlating with strong number which indicate that one is increasing and other one is increasing as well. </p>
+
+<p class="viz-large">The above correlation is easily showing the Poverty rate is negatively correlated to education score and per capita income, and they are strongly correlated. It means that if one is increasing other one is decreasing. We also see that education score and per capita income positively correlate with a firm number, indicating that one is rising and the other is rising as well. </p>
 
 
 
@@ -274,10 +286,9 @@ h1, h2, h3, h4, h5, h6 {
     <h5 class="viz-center">Conclusion</h5><br>
 
         <p>
-          The analyses show the different idicator relationship in terms of  proverty rate, education score, and per capita of United states. 
-          From the above analysis we can easily find that Education rate and percapita has negative impact in the proverty rate. 
-          The relationship between education score and per capita of each state is highly positive. In conclusion, we can easily see tha education has 
-          positive impact on per capita income and negative relationship with Proverty rate.
+   
+The analyses show the different indicator relationships in terms of  Poverty rate, education score, and per capita of United states. From the above analysis, we can easily find that the Education rate and per capita income have a negative impact on the Poverty rate. The relationship between education scores and per capita of each state is highly positive. In Conclusion, we can state that education positively impacts per capita income and negatively affects the Poverty rate.
+
         </p>
   </div>
   </div>
