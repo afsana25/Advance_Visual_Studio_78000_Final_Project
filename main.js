@@ -35,7 +35,7 @@ result=data;
   data.forEach(function(d) {
     d.educationScore = +d.educationScore;
     d.PovertyRate = +d.PovertyRate;
-    d.educationAttainmentRank=+d.educationAttainmentRank;
+    d.PerCapita=+d.PerCapita;
   });
 
   //for tool tip 
@@ -99,8 +99,8 @@ var line = d3.svg.line()
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("opacity",0.5)
-      .attr("r", function(d){return Math.sqrt(d.educationAttainmentRank)})
+      // .attr("opacity",0.5)
+      .attr("r", function(d){return Math.sqrt((d.PerCapita)*0.001)})
       .attr("cx", function(d) { return x(d.PovertyRate); })
       .attr("cy", function(d) { return y(d.educationScore); })
       .style("fill", function(d) { return color(d.Criteria)}).
