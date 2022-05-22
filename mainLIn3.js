@@ -114,7 +114,7 @@ var line = d3.svg.line()
         d3.select(".tooltip").style("left",function(d){return (d3.event.pageX+10)+"px"}).style("top",function(d){ return (d3.event.pageY-50)+"px"});
         d3.select(".tooltip").style("visibility","visible");
         CompEducationScore=parseFloat(regression(x.invert(d3.event.pageX-svg.node().getBoundingClientRect().left-margin.left))).toFixed(3);
-        d3.select(".tooltip").text("computed Education Score is "+CompEducationScore)
+        d3.select(".tooltip").text("Computed Education Score is "+CompEducationScore)
         
       })
       .on("mouseout",function(){
