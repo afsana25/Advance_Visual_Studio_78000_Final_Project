@@ -48,9 +48,9 @@ result=data;
 
 
 
-var XaxisData = data.map(function(d) { return d.PerCapita; });
-var YaxisData = data.map(function(d) { return d.educationScore; });
-regression=leastSquaresequation(XaxisData,YaxisData);
+var x_Point = data.map(function(d) { return d.PerCapita; });
+var y_Point = data.map(function(d) { return d.educationScore; });
+regression=leastSquaresequation(x_Point,y_Point);
 
 
 
@@ -146,28 +146,30 @@ var line = d3.svg.line()
 
 
 
-function leastSquaresequation(XaxisData, Yaxisdata) {
-    var ReduceAddition = function(prev, cur) { return prev + cur; };
+function leastSquaresequation(x_Point, y_Point) {
+    var ComputedReducedAddition = function(prev, cur) { return prev + cur; };
     
-    // finding the mean of Xaxis and Yaxis data
-    var xBar = XaxisData.reduce(ReduceAddition) * 1.0 / XaxisData.length;
-    var yBar = Yaxisdata.reduce(ReduceAddition) * 1.0 / Yaxisdata.length;
+       // Computed the mean of Xaxis and Yaxis data
+    var x_Coefficient = x_Point.reduce(ComputedReducedAddition) * 1.0 / x_Point.length;
+    var y_Coefficient = y_Point.reduce(ComputedReducedAddition) * 1.0 / y_Point.length;
 
-    var SquareXX = XaxisData.map(function(d) { return Math.pow(d - xBar, 2); })
-      .reduce(ReduceAddition);
+    var Squared_XXValue = x_Point.map(function(d) { return Math.pow(d - x_Coefficient, 2); })
+      .reduce(ComputedReducedAddition);
     
-    var ssYY = Yaxisdata.map(function(d) { return Math.pow(d - yBar, 2); })
-      .reduce(ReduceAddition);
+    var ssYY = y_Point.map(function(d) { return Math.pow(d - y_Coefficient, 2); })
+      .reduce(ComputedReducedAddition);
       
-    var MeanDiffXY = XaxisData.map(function(d, i) { return (d - xBar) * (Yaxisdata[i] - yBar); })
-      .reduce(ReduceAddition);
+    var MeanDiffXY = x_Point.map(function(d, i) { return (d - x_Coefficient) * (y_Point[i] - y_Coefficient); })
+      .reduce(ComputedReducedAddition);
       
-    var slope = MeanDiffXY / SquareXX;
-    var intercept = yBar - (xBar * slope);
+    var slope = MeanDiffXY / Squared_XXValue;
+    var intercept = y_Coefficient - (x_Coefficient * slope);
     
-// returning regression function
+// regression function
     return function(x){
       return x*slope+intercept
     }
 
   }
+
+
