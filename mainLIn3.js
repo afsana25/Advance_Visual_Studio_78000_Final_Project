@@ -35,7 +35,7 @@ result=data;
   data.forEach(function(d) {
     d.educationScore = +d.educationScore;
     d.PerCapita = +d.PerCapita;
-    d.PerCapita=+d.PovertyRate;
+    d.PovertyRate=+d.PovertyRate;
   });
 
   //for tool tip 
